@@ -1,0 +1,960 @@
+{
+  "schema_version": "1.3",
+  "generated_at": null,
+  "project_type": "proof_of_concept_alumni_research_directory",
+  "source_files": [
+    "alumni.csv",
+    "articles.csv"
+  ],
+  "notes": {
+    "alumni_source_is_master": true,
+    "publication_data_source_label": "temporary_fake_spreadsheet",
+    "publication_data_warning": "Synthetic publication records for interface and database testing only. Not verified scholarly output."
+  },
+  "alumni": [
+    {
+      "id": "allyson-volinsky-2014",
+      "full_name": "Allyson Volinsky",
+      "aka": "Allyson Levin / Allyson Carol Volinsky",
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "Variation on a theme: Comparing strategies for choosing health communication campaign message topics",
+      "advisor": "Robert C. Hornik, Ph.D.",
+      "publications": [
+        {
+          "title": "Affective Infrastructures and the Cultura Ipsum of Networked Care",
+          "journal": "",
+          "publication_year": 2017,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Health Communication, Risk, and the Epidemia Verbum of Social Platforms",
+          "journal": "",
+          "publication_year": 2021,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Affective Infrastructures and the Cultura Ipsum of Networked Care",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Health Communication, Risk, and the Epidemia Verbum of Social Platforms",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "david-elliot-berman-2014",
+      "full_name": "David Elliot Berman",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "The Optimizers: Cultural Production in the Age of Platform Capitalism",
+      "advisor": "Victor Pickard, Ph.D.",
+      "publications": [
+        {
+          "title": "Platform Labor, Governance, and the Politica Lorem of Datafication",
+          "journal": "",
+          "publication_year": 2018,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Crisis Reporting and the Spectaculum Ipsum of Network News",
+          "journal": "",
+          "publication_year": 2025,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Platform Labor, Governance, and the Politica Lorem of Datafication",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Crisis Reporting and the Spectaculum Ipsum of Network News",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "elisa-baek-2014",
+      "full_name": "Elisa Baek",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "NA",
+      "advisor": null,
+      "publications": [
+        {
+          "title": "Relational Selves in Mediated Space: Anxietas et Cognitio in Social Networks",
+          "journal": "",
+          "publication_year": 2019,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Relational Selves in Mediated Space: Anxietas et Cognitio in Social Networks",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "elisabetta-ferrari-2014",
+      "full_name": "Elisabetta Ferrari",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "The technological imaginaries of social movements: the discursive dimension of communication technology and the fight for social justice",
+      "advisor": "Guobin Yang, Ph.D.",
+      "publications": [
+        {
+          "title": "Digital Activism and the Public Sphere: Communicatio in Precaritas",
+          "journal": "",
+          "publication_year": 2020,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Counterpublics, Hashtags, and the Agora Fragmenta of Digital Protest",
+          "journal": "",
+          "publication_year": 2018,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Digital Activism and the Public Sphere: Communicatio in Precaritas",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Counterpublics, Hashtags, and the Agora Fragmenta of Digital Protest",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "hye-yon-lee-2014",
+      "full_name": "Hye-Yon Lee",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "How the Public Perception of Political Polarization Affects American Social Life",
+      "advisor": "Guobin Yang, Ph.D.",
+      "publications": [
+        {
+          "title": "Embodied Listening and the Sonus Ipsum of Urban Soundscapes",
+          "journal": "",
+          "publication_year": 2018,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Embodied Listening and the Sonus Ipsum of Urban Soundscapes",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "jasmine-erdener-2014",
+      "full_name": "Jasmine Erdener",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": "https://cssh.ku.edu.tr/en/programs/media-and-visual-arts/faculty/?detail=true&id=jerdener",
+      "dissertation_title": "Excavating Radical Futures – Puppets, Robots, and the Fight for Technology",
+      "advisor": "Guobin Yang, Ph.D.",
+      "publications": [
+        {
+          "title": "Transnational Fandoms and the Imaginaire Lorem of Global Media Flows",
+          "journal": "",
+          "publication_year": 2021,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Transnational Fandoms and the Imaginaire Lorem of Global Media Flows",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "john-vilanova-2014",
+      "full_name": "John Vilanova",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": "https://journalism.cas.lehigh.edu/faculty-staff/john-vilanova",
+      "dissertation_title": "Not Simply the Best: The GRAMMY Awards, Race, and America",
+      "advisor": "John Jackson, Ph.D.",
+      "publications": [
+        {
+          "title": "Pop Music, Race, and the Industria Narrativa: Aesthesis in Lorem Streaming",
+          "journal": "",
+          "publication_year": 2019,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Pop Music, Race, and the Industria Narrativa: Aesthesis in Lorem Streaming",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "kecheng-fang-2014",
+      "full_name": "Kecheng Fang",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "Mapping Media Bias in China",
+      "advisor": "Michael X. Delli Carpini, Ph.D.",
+      "publications": [
+        {
+          "title": "Platform Governance and the Civitas Digitale: Discurso et Algorithmia",
+          "journal": "",
+          "publication_year": 2022,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Local Journalism and the Polis Microdata: Narratio in Sina Lorem",
+          "journal": "",
+          "publication_year": 2019,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Platform Governance and the Civitas Digitale: Discurso et Algorithmia",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Local Journalism and the Polis Microdata: Narratio in Sina Lorem",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "natalie-herbert-2014",
+      "full_name": "Natalie Herbert",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "Covering Scientific Uncertainty in Ongoing Research",
+      "advisor": "Joseph N. Cappella, Ph.D.",
+      "publications": [
+        {
+          "title": "Attention, Memory, and the Cognitiva Ipsum of Interactive News Interfaces",
+          "journal": "",
+          "publication_year": 2020,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Attention, Memory, and the Cognitiva Ipsum of Interactive News Interfaces",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "opeyemi-akanbi-2014",
+      "full_name": "Opeyemi Akanbi",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "NA",
+      "advisor": null,
+      "publications": [
+        {
+          "title": "Automated Management and the Labor Nexum: Algorithmus et Precaritas",
+          "journal": "",
+          "publication_year": 2023,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Gig Work, Surveillance, and the Datum Precaritatis of Platform Infrastructures",
+          "journal": "",
+          "publication_year": 2026,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Automated Management and the Labor Nexum: Algorithmus et Precaritas",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Gig Work, Surveillance, and the Datum Precaritatis of Platform Infrastructures",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "rachel-stonecipher-2014",
+      "full_name": "Rachel Stonecipher",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "NA",
+      "advisor": null,
+      "publications": [
+        {
+          "title": "Affect, Archives, and the Textura Lorem of Queer Media Histories",
+          "journal": "",
+          "publication_year": 2017,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Narrative Repair and the Poesis Lorem of Trauma Representation",
+          "journal": "",
+          "publication_year": 2022,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Affect, Archives, and the Textura Lorem of Queer Media Histories",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Narrative Repair and the Poesis Lorem of Trauma Representation",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "taylor-rae-collins-headley-2014",
+      "full_name": "Taylor-Rae Collins-Headley",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "NA",
+      "advisor": null,
+      "publications": [
+        {
+          "title": "Black Feminist Methodologies and the Corpus Imaginalis of Visual Culture",
+          "journal": "",
+          "publication_year": 2024,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        },
+        {
+          "title": "Black Feminist Methodologies and the Corpus Imaginalis of Visual Culture",
+          "journal": "",
+          "publication_year": null,
+          "publication_type": "article",
+          "doi": "",
+          "url": "",
+          "record_status": "synthetic_placeholder",
+          "data_source": "temporary_fake_spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "yilang-peng-2014",
+      "full_name": "Yilang Peng",
+      "aka": null,
+      "cohort_year": 2014,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": "Identifying media bias with computer vision",
+      "advisor": "Sandra González-Bailón, Ph.D.",
+      "publications": []
+    },
+    {
+      "id": "christin-scholz-2015",
+      "full_name": "Christin Scholz",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "danny-kim-2015",
+      "full_name": "Danny Kim",
+      "aka": "Da Eun Kim",
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "david-larochelle-2015",
+      "full_name": "David Larochelle",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "douglas-guilbeault-2015",
+      "full_name": "Douglas Guilbeault",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "helene-langlamet-2015",
+      "full_name": "Helene Langlamet",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "jazmyne-sutton-2015",
+      "full_name": "Jazmyne Sutton",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "jennifer-henrichsen-2015",
+      "full_name": "Jennifer Henrichsen",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "john-remensperger-2015",
+      "full_name": "John Remensperger",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "leah-alexandra-ferentinos-2015",
+      "full_name": "Leah Alexandra Ferentinos",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "megan-genovese-2015",
+      "full_name": "Megan Genovese",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "pawel-popiel-2015",
+      "full_name": "Pawel Popiel",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "revati-prasad-2015",
+      "full_name": "Revati Prasad",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "rui-pei-2015",
+      "full_name": "Rui Pei",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "soojong-kim-2015",
+      "full_name": "Soojong Kim",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "stefanie-gratale-2015",
+      "full_name": "Stefanie Gratale",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "subhayan-mukerjee-2015",
+      "full_name": "Subhayan Mukerjee",
+      "aka": null,
+      "cohort_year": 2015,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "bruce-dore-2016",
+      "full_name": "Bruce Dore",
+      "aka": null,
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "celeste-m-wagner-2016",
+      "full_name": "Celeste M. Wagner",
+      "aka": "Celeste Wagner",
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "do-eon-lee-2016",
+      "full_name": "Do Eon Lee",
+      "aka": "Donna Lee",
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "eric-forbush-2016",
+      "full_name": "Eric Forbush",
+      "aka": null,
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "hanna-e-morris-2016",
+      "full_name": "Hanna E. Morris",
+      "aka": null,
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "kwanho-kim-2016",
+      "full_name": "Kwanho Kim",
+      "aka": null,
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "leeann-siegel-2016",
+      "full_name": "Leeann Siegel",
+      "aka": null,
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "mohammed-a-salih-2016",
+      "full_name": "Mohammed A. Salih",
+      "aka": null,
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "prateekshit-pandey-2016",
+      "full_name": "Prateekshit Pandey",
+      "aka": "Kanu Pandy",
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "sean-fischer-2016",
+      "full_name": "Sean Fischer",
+      "aka": null,
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "zane-cooper-2016",
+      "full_name": "Zane Cooper",
+      "aka": null,
+      "cohort_year": 2016,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "alvin-zhou-2017",
+      "full_name": "Alvin Zhou",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "chioma-woko-2017",
+      "full_name": "Chioma Woko",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "chloe-nurik-2017",
+      "full_name": "Chloé Nurik",
+      "aka": "Chloe Nurik",
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "diami-virgilio-2017",
+      "full_name": "Diami Virgilio",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "heather-jaber-2017",
+      "full_name": "Heather Jaber",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "jacob-parelman-2017",
+      "full_name": "Jacob Parelman",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "lauren-bridges-2017",
+      "full_name": "Lauren Bridges",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "muira-mccammon-2017",
+      "full_name": "Muira McCammon",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "ryan-tsapatsaris-2017",
+      "full_name": "Ryan Tsapatsaris",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "tian-yang-2017",
+      "full_name": "Tian Yang",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "yao-sun-2017",
+      "full_name": "Yao Sun",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    },
+    {
+      "id": "yasemin-celikkol-2017",
+      "full_name": "Yasemin Celikkol",
+      "aka": null,
+      "cohort_year": 2017,
+      "graduation_year": null,
+      "website": null,
+      "dissertation_title": null,
+      "advisor": null,
+      "publications": []
+    }
+  ]
+}

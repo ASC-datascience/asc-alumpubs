@@ -1,0 +1,42 @@
+Author,Title,Year
+Allyson Volinsky,"Affective Infrastructures and the Cultura Ipsum of Networked Care",2017
+David Elliot Berman,"Platform Labor, Governance, and the Politica Lorem of Datafication",2018
+Elisa Baek,"Relational Selves in Mediated Space: Anxietas et Cognitio in Social Networks",2019
+Elisabetta Ferrari,"Digital Activism and the Public Sphere: Communicatio in Precaritas",2020
+Hye-Yon Lee,"Embodied Listening and the Sonus Ipsum of Urban Soundscapes",2018
+Jasmine Erdener,"Transnational Fandoms and the Imaginaire Lorem of Global Media Flows",2021
+John Vilanova,"Pop Music, Race, and the Industria Narrativa: Aesthesis in Lorem Streaming",2019
+Kecheng Fang,"Platform Governance and the Civitas Digitale: Discurso et Algorithmia",2022
+Natalie Herbert,"Attention, Memory, and the Cognitiva Ipsum of Interactive News Interfaces",2020
+Opeyemi Akanbi,"Automated Management and the Labor Nexum: Algorithmus et Precaritas",2023
+Rachel Stonecipher,"Affect, Archives, and the Textura Lorem of Queer Media Histories",2017
+Taylor-Rae Collins-Headley,"Black Feminist Methodologies and the Corpus Imaginalis of Visual Culture",2024
+Allyson Volinsky,"Health Communication, Risk, and the Epidemia Verbum of Social Platforms",2021
+David Elliot Berman,"Crisis Reporting and the Spectaculum Ipsum of Network News",2025
+Elisabetta Ferrari,"Counterpublics, Hashtags, and the Agora Fragmenta of Digital Protest",2018
+Kecheng Fang,"Local Journalism and the Polis Microdata: Narratio in Sina Lorem",2019
+Opeyemi Akanbi,"Gig Work, Surveillance, and the Datum Precaritatis of Platform Infrastructures",2026
+Rachel Stonecipher,"Narrative Repair and the Poesis Lorem of Trauma Representation",2022
+oops, do it again, but add a journal title for each, again include some lorem ipsum so we know they're not real journals.
+Here is a revised CSV with a (fake) journal title added for each article, with some lorem-ipsum in the journal names so they’re clearly not real.
+
+text
+Author,Title,Journal,Year
+Allyson Volinsky,"Affective Infrastructures and the Cultura Ipsum of Networked Care","Journal of Communicatio Lorem Studies",2017
+David Elliot Berman,"Platform Labor, Governance, and the Politica Lorem of Datafication","Media Policy et Ipsum Quarterly",2018
+Elisa Baek,"Relational Selves in Mediated Space: Anxietas et Cognitio in Social Networks","Journal of Socio Digitalis et Ipsum",2019
+Elisabetta Ferrari,"Digital Activism and the Public Sphere: Communicatio in Precaritas","Civitas Lorem Publica Review",2020
+Hye-Yon Lee,"Embodied Listening and the Sonus Ipsum of Urban Soundscapes","Urban Sonus et Cultura Lorem",2018
+Jasmine Erdener,"Transnational Fandoms and the Imaginaire Lorem of Global Media Flows","Global Media Fandomia Ipsum",2021
+John Vilanova,"Pop Music, Race, and the Industria Narrativa: Aesthesis in Lorem Streaming","Popular Musica et Cultura Ipsum",2019
+Kecheng Fang,"Platform Governance and the Civitas Digitale: Discurso et Algorithmia","Journal of Platforma Politica Lorem",2022
+Natalie Herbert,"Attention, Memory, and the Cognitiva Ipsum of Interactive News Interfaces","Cognitive Media Interface Lorem Review",2020
+Opeyemi Akanbi,"Automated Management and the Labor Nexum: Algorithmus et Precaritas","Labor Algorithmia et Ipsum Studies",2023
+Rachel Stonecipher,"Affect, Archives, and the Textura Lorem of Queer Media Histories","Archives Affectus et Historia Lorem",2017
+Taylor-Rae Collins-Headley,"Black Feminist Methodologies and the Corpus Imaginalis of Visual Culture","Journal of Visualis Corpus Ipsum",2024
+Allyson Volinsky,"Health Communication, Risk, and the Epidemia Verbum of Social Platforms","Health Communicatio Epidemia Lorem",2021
+David Elliot Berman,"Crisis Reporting and the Spectaculum Ipsum of Network News","Crisis Media Spectaculum Review",2025
+Elisabetta Ferrari,"Counterpublics, Hashtags, and the Agora Fragmenta of Digital Protest","Hashtag Politica Agora Ipsum",2018
+Kecheng Fang,"Local Journalism and the Polis Microdata: Narratio in Sina Lorem","Localis Journalia Microdata Lorem",2019
+Opeyemi Akanbi,"Gig Work, Surveillance, and the Datum Precaritatis of Platform Infrastructures","Gig Labor et Datum Precaris",2026
+Rachel Stonecipher,"Narrative Repair and the Poesis Lorem of Trauma Representation","Narrativa Poesis Trauma Ipsum",2022
