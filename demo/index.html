@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alumni Research Directory</title>
+<style>
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 20px;
+  color: #000;
+  background: #fff;
+}
+h1, h2, h3, p { margin: 0 0 12px 0; }
+form { margin-bottom: 20px; }
+label { display: block; margin: 0 0 10px 0; }
+input, select, button { font: inherit; }
+input, select { width: 100%; max-width: 420px; }
+button { margin-right: 10px; }
+section { margin-top: 24px; }
+article { margin-bottom: 24px; border-top: 1px solid #ddd; padding-top: 16px; }
+ul { margin: 8px 0 12px 20px; }
+li { margin-bottom: 4px; }
+.small { font-size: 14px; }
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<h1>Alumni Research Directory</h1>
+<p>Plain local version for hand editing. Publication records are displayed from the JSON file.</p>
+
+<form id="filters">
+  <label>
+    Search
+    <input id="q" type="text" placeholder="Name, title, author, journal, DOI, keyword">
+  </label>
+
+  <label>
+    Cohort year
+    <select id="cohortYear">
+      <option value="">All</option>
+    </select>
+  </label>
+
+  <label>
+    Publication year
+    <select id="pubYear">
+      <option value="">All</option>
+    </select>
+  </label>
+
+  <label>
+    Advisor
+    <select id="advisor">
+      <option value="">All</option>
+    </select>
+  </label>
+
+  <label>
+    ORCID
+    <select id="orcidFilter">
+      <option value="">All</option>
+      <option value="yes">Has ORCID</option>
+      <option value="no">No ORCID</option>
+    </select>
+  </label>
+
+  <label>
+    Publications
+    <select id="pubFilter">
+      <option value="">All</option>
+      <option value="yes">Has publications</option>
+      <option value="no">No publications</option>
+    </select>
+  </label>
+
+  <button type="button" id="clearBtn">Clear filters</button>
+</form>
+
+<section>
+  <p id="summary"></p>
+</section>
+
+<section id="results"></section>
+
+<template id="personTemplate">
+  <article>
+    <h2 class="name"></h2>
+    <ul class="meta"></ul>
+    <div class="pubBlock hidden">
+      <h3>Publications</h3>
+      <ul class="pubs"></ul>
+    </div>
+  </article>
+</template>
+
+<script>
+const DATA_FILE = './alumni-scholar-database-v3.json';
+
+async function loadData() {
+  const response = await fetch(DATA_FILE);
+  if (!response.ok) throw new Error(DATA_FILE + ': HTTP ' + response.status);
+  return await response.json();
+}
+
+function text(value) {
+  return value == null ? '' : String(value);
+}
+
+function cleanValue(value) {
+  const cleaned = text(value).trim();
+  const lower = cleaned.toLowerCase();
+  if (!cleaned || lower === 'null' || lower === 'undefined' || lower === 'not found') return '';
+  return cleaned;
+}
+
+function hasValue(value) {
+  return cleanValue(value) !== '';
+}
+
+function asArray(value) {
+  return Array.isArray(value) ? value : [];
+}
+
+function getAlumni(data) {
+  return asArray(data && data.alumni);
+}
+
+function getPublications(person) {
+  return asArray(person && person.publications);
+}
+
+function getOrcid(person) {
+  return cleanValue(person && (person.orcid || person.orcid_url || person.orcid_id));
+}
+
+function uniqueSorted(values, numericDescending = false) {
+  const unique = [...new Set(values.map(cleanValue).filter(Boolean))];
+  return unique.sort((a, b) => {
+    if (numericDescending) return Number(b) - Number(a);
+    return a.localeCompare(b);
+  });
+}
+
+function addOption(select, value) {
+  const option = document.createElement('option');
+  option.value = value;
+  option.textContent = value;
+  select.appendChild(option);
+}
+
+function populateSelect(select, values, numericDescending = false) {
+  uniqueSorted(values, numericDescending).forEach(value => addOption(select, value));
+}
+
+function matchesYesNo(filterValue, actualHasValue) {
+  if (!filterValue) return true;
+  if (filterValue === 'yes') return actualHasValue;
+  if (filterValue === 'no') return !actualHasValue;
+  return true;
+}
+
+function publicationMatchesYear(person, year) {
+  if (!year) return true;
+  return getPublications(person).some(pub => cleanValue(pub && pub.year) === year);
+}
+
+function personMatchesQuery(person, query) {
+  const q = cleanValue(query).toLowerCase();
+  if (!q) return true;
+
+  const personFields = [
+    person.id,
+    person.full_name,
+    person.aka,
+    person.cohort_year,
+    person.graduation_year,
+    person.dissertation_title,
+    person.advisor,
+    person.website,
+    getOrcid(person),
+    person.current_affiliation,
+    person.department
+  ];
+
+  const publicationFields = getPublications(person).flatMap(pub => [
+    pub && pub.title,
+    pub && pub.author,
+    pub && pub.journal,
+    pub && pub.booktitle,
+    pub && pub.publisher,
+    pub && pub.year,
+    pub && pub.month,
+    pub && pub.doi,
+    pub && pub.url,
+    pub && pub.ENTRYTYPE,
+    pub && pub.ID,
+    pub && pub.isbn,
+    pub && pub.issn,
+    pub && pub.volume,
+    pub && pub.number,
+    pub && pub.pages
+  ]);
+
+  return [...personFields, ...publicationFields]
+    .map(text)
+    .join(' ')
+    .toLowerCase()
+    .includes(q);
+}
+
+function appendLinkOrText(parent, label, value) {
+  const cleaned = cleanValue(value);
+  if (!cleaned) return;
+
+  const li = document.createElement('li');
+  li.append(label + ': ');
+
+  if (/^https?:\/\//i.test(cleaned)) {
+    const a = document.createElement('a');
+    a.href = cleaned;
+    a.textContent = cleaned;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    li.appendChild(a);
+  } else {
+    li.append(cleaned);
+  }
+
+  parent.appendChild(li);
+}
+
+function renderPublication(pub) {
+  const li = document.createElement('li');
+  const parts = [];
+
+  if (hasValue(pub.title)) parts.push(cleanValue(pub.title));
+  if (hasValue(pub.author)) parts.push(cleanValue(pub.author));
+  if (hasValue(pub.journal)) parts.push(cleanValue(pub.journal));
+  if (hasValue(pub.booktitle)) parts.push(cleanValue(pub.booktitle));
+  if (hasValue(pub.year)) parts.push(cleanValue(pub.year));
+  if (hasValue(pub.ENTRYTYPE)) parts.push(cleanValue(pub.ENTRYTYPE));
+  if (hasValue(pub.doi)) parts.push('doi: ' + cleanValue(pub.doi));
+
+  li.textContent = parts.join(' | ') || '(Publication record has no display fields)';
+  return li;
+}
+
+function renderPerson(person, template) {
+  const node = template.content.firstElementChild.cloneNode(true);
+  node.querySelector('.name').textContent = cleanValue(person.full_name) || '(No name)';
+
+  const meta = node.querySelector('.meta');
+  appendLinkOrText(meta, 'Cohort year', person.cohort_year);
+  appendLinkOrText(meta, 'Graduation year', person.graduation_year);
+  appendLinkOrText(meta, 'Advisor', person.advisor);
+  appendLinkOrText(meta, 'AKA', person.aka);
+  appendLinkOrText(meta, 'Dissertation', person.dissertation_title);
+  appendLinkOrText(meta, 'Current affiliation', person.current_affiliation);
+  appendLinkOrText(meta, 'Department', person.department);
+  appendLinkOrText(meta, 'Website', person.website);
+  appendLinkOrText(meta, 'ORCID', getOrcid(person));
+
+  const publications = getPublications(person);
+  if (publications.length > 0) {
+    node.querySelector('.pubBlock').classList.remove('hidden');
+    const pubList = node.querySelector('.pubs');
+    publications.forEach(pub => pubList.appendChild(renderPublication(pub || {})));
+  }
+
+  return node;
+}
+
+loadData().then(data => {
+  const alumni = getAlumni(data);
+
+  const els = {
+    q: document.getElementById('q'),
+    cohortYear: document.getElementById('cohortYear'),
+    pubYear: document.getElementById('pubYear'),
+    advisor: document.getElementById('advisor'),
+    orcidFilter: document.getElementById('orcidFilter'),
+    pubFilter: document.getElementById('pubFilter'),
+    summary: document.getElementById('summary'),
+    results: document.getElementById('results'),
+    template: document.getElementById('personTemplate'),
+    clearBtn: document.getElementById('clearBtn')
+  };
+
+  populateSelect(els.cohortYear, alumni.map(person => person.cohort_year), true);
+  populateSelect(els.advisor, alumni.map(person => person.advisor));
+  populateSelect(
+    els.pubYear,
+    alumni.flatMap(person => getPublications(person).map(pub => pub && pub.year)),
+    true
+  );
+
+  function render() {
+    const q = els.q.value;
+    const cohortYear = els.cohortYear.value;
+    const pubYear = els.pubYear.value;
+    const advisor = els.advisor.value;
+    const orcidFilter = els.orcidFilter.value;
+    const pubFilter = els.pubFilter.value;
+
+    const filtered = alumni.filter(person => {
+      const publications = getPublications(person);
+      if (!personMatchesQuery(person, q)) return false;
+      if (cohortYear && cleanValue(person.cohort_year) !== cohortYear) return false;
+      if (!publicationMatchesYear(person, pubYear)) return false;
+      if (advisor && cleanValue(person.advisor) !== advisor) return false;
+      if (!matchesYesNo(orcidFilter, hasValue(getOrcid(person)))) return false;
+      if (!matchesYesNo(pubFilter, publications.length > 0)) return false;
+      return true;
+    });
+
+    const withPubs = filtered.filter(person => getPublications(person).length > 0).length;
+    els.summary.textContent = `${filtered.length} result${filtered.length === 1 ? '' : 's'} out of ${alumni.length} alumni; ${withPubs} shown result${withPubs === 1 ? ' has' : 's have'} publications.`;
+    els.results.innerHTML = '';
+
+    if (!filtered.length) {
+      const p = document.createElement('p');
+      p.textContent = 'No matching records.';
+      els.results.appendChild(p);
+      return;
+    }
+
+    filtered.forEach(person => els.results.appendChild(renderPerson(person, els.template)));
+  }
+
+  ['input', 'change'].forEach(eventName => {
+    els.q.addEventListener(eventName, render);
+    els.cohortYear.addEventListener(eventName, render);
+    els.pubYear.addEventListener(eventName, render);
+    els.advisor.addEventListener(eventName, render);
+    els.orcidFilter.addEventListener(eventName, render);
+    els.pubFilter.addEventListener(eventName, render);
+  });
+
+  els.clearBtn.addEventListener('click', () => {
+    els.q.value = '';
+    els.cohortYear.value = '';
+    els.pubYear.value = '';
+    els.advisor.value = '';
+    els.orcidFilter.value = '';
+    els.pubFilter.value = '';
+    render();
+  });
+
+  render();
+}).catch(error => {
+  const results = document.getElementById('results');
+  results.innerHTML = '<p>Could not load the alumni JSON. Keep this HTML file in the same folder as <code>alumni-scholar-database-v3.json</code> and serve the folder with a simple local web server.</p><p class="small"></p>';
+  results.querySelector('.small').textContent = error.message;
+});
+</script>
+</body>
+</html>
