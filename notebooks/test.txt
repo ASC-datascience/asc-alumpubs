@@ -1,0 +1,41 @@
+
+ @article{Fernandes_2026, title={The Influence of Emotion Dynamics on Interpersonal Liking}, url={http://dx.doi.org/10.31234/osf.io/yb3hx_v1}, DOI={10.31234/osf.io/yb3hx_v1}, publisher={Center for Open Science}, author={Fernandes, Laura Furtado and Ford, Ezra and Baek, Elisa C and Burns, Shannon M.}, year={2026}, month=Apr }
+
+ @article{Lu_2025, title={Idiosyncratic Event Segmentation as a Neural Marker of Loneliness}, url={http://dx.doi.org/10.31234/osf.io/7rbhy_v1}, DOI={10.31234/osf.io/7rbhy_v1}, publisher={Center for Open Science}, author={Lu, Chang and Sava-Segal, Clara and Baek, Elisa C}, year={2025}, month=Nov }
+
+ @article{Ma_de_Sousa_2025, title={Loneliness is associated with unstable and distorted emotion transition predictions}, volume={3}, ISSN={2731-9121}, url={http://dx.doi.org/10.1038/s44271-025-00310-w}, DOI={10.1038/s44271-025-00310-w}, number={1}, journal={Communications Psychology}, publisher={Springer Science and Business Media LLC}, author={Ma de Sousa, Ava Q. and Schwyck, Miriam E. and Furtado Fernandes, Laura and Ford, Ezra and Babür, Begüm G. and Lu, Chang and Zimmerman, Jacob C. and Yu, Hongbo and Burns, Shannon M. and Baek, Elisa C.}, year={2025}, month=Aug }
+
+ @article{Baek_2025, title={Perceived community alignment increases information sharing}, volume={16}, ISSN={2041-1723}, url={http://dx.doi.org/10.1038/s41467-025-59915-8}, DOI={10.1038/s41467-025-59915-8}, number={1}, journal={Nature Communications}, publisher={Springer Science and Business Media LLC}, author={Baek, Elisa C. and Hyon, Ryan and López, Karina and Porter, Mason A. and Parkinson, Carolyn}, year={2025}, month=July }
+
+ @article{Baek_2025, title={The four conceptualizations of social connection}, volume={4}, ISSN={2731-0574}, url={http://dx.doi.org/10.1038/s44159-025-00455-9}, DOI={10.1038/s44159-025-00455-9}, number={8}, journal={Nature Reviews Psychology}, publisher={Springer Science and Business Media LLC}, author={Baek, Elisa C. and Pourafshari, Razieh and Bayer, Joseph B.}, year={2025}, month=June, pages={506–517} }
+
+ @article{Ma_de_Sousa_2025, title={Loneliness is associated with unstable and distorted emotion transition predictions}, url={http://dx.doi.org/10.31234/osf.io/6g4sc_v2}, DOI={10.31234/osf.io/6g4sc_v2}, publisher={Center for Open Science}, author={Ma de Sousa, Ava Q. and Schwyck, Miriam E. and Fernandes, Laura Furtado and Ford, Ezra and Babur, Begum and Lu, Chang and Zimmerman, Jacob and Yu, Hongbo and Burns, Shannon M. and Baek, Elisa C}, year={2025}, month=Mar }
+
+ @article{Ma_de_Sousa_2025, title={Loneliness is associated with unstable and distorted emotion transition predictions}, url={http://dx.doi.org/10.31234/osf.io/6g4sc_v1}, DOI={10.31234/osf.io/6g4sc_v1}, publisher={Center for Open Science}, author={Ma de Sousa, Ava Q. and Schwyck, Miriam E. and Fernandes, Laura Furtado and Ford, Ezra and Babur, Begum and Lu, Chang and Zimmerman, Jacob and Yu, Hongbo and Burns, Shannon M. and Baek, Elisa C}, year={2025}, month=Mar }
+
+ @article{Baek_2025, title={Having more friends is associated with greater sensitization to social exclusion: neural and behavioral evidence}, volume={20}, ISSN={1749-5024}, url={http://dx.doi.org/10.1093/scan/nsaf067}, DOI={10.1093/scan/nsaf067}, number={1}, journal={Social Cognitive And Affective Neuroscience}, publisher={Oxford University Press (OUP)}, author={Baek, Elisa C and Shen, Yixuan Lisa and Kim, Hairin and Baldina, Ekaterina and Chey, Jeanyung and Youm, Yoosik and Parkinson, Carolyn}, year={2025} }
+
+ @article{Baek_2023, title={Lonely Individuals Process the World in Idiosyncratic Ways}, volume={34}, ISSN={1467-9280}, url={http://dx.doi.org/10.1177/09567976221145316}, DOI={10.1177/09567976221145316}, number={6}, journal={Psychological Science}, publisher={SAGE Publications}, author={Baek, Elisa C. and Hyon, Ryan and López, Karina and Du, Meng and Porter, Mason A. and Parkinson, Carolyn}, year={2023}, month=Apr, pages={683–695} }
+
+ @article{Abdurahman_2023, title={Targeting audiences’ moral values shapes misinformation sharing}, url={http://dx.doi.org/10.31234/osf.io/ztq2k}, DOI={10.31234/osf.io/ztq2k}, publisher={Center for Open Science}, author={Abdurahman, Suhaib and Reimer, Nils Karl and Golazizian, Preni and Baek, Elisa C and Shen, Yixuan and Trager, Jackson and Lulla, Roshni and Kaplan, Jonas and Parkinson, Carolyn and Dehghani, Morteza}, year={2023}, month=May }
+
+ @article{Baek_2023, title={Perceived community alignment increases information sharing}, url={http://dx.doi.org/10.31234/osf.io/vea3k}, DOI={10.31234/osf.io/vea3k}, publisher={Center for Open Science}, author={Baek, Elisa C and Hyon, Ryan and López, Karina and Porter, Mason A. and Parkinson, Carolyn}, year={2023}, month=Apr }
+
+ @article{Baek_2022, title={Shared understanding and social connection: Integrating approaches from social psychology, social network analysis, and neuroscience}, volume={16}, ISSN={1751-9004}, url={http://dx.doi.org/10.1111/spc3.12710}, DOI={10.1111/spc3.12710}, number={11}, journal={Social and Personality Psychology Compass}, publisher={Wiley}, author={Baek, Elisa C. and Parkinson, Carolyn}, year={2022}, month=Oct }
+
+ @article{Chan_2022, title={The gap between sharing and reading news on social media: A multi-method investigation}, url={http://dx.doi.org/10.31234/osf.io/65qwb}, DOI={10.31234/osf.io/65qwb}, publisher={Center for Open Science}, author={Chan, Hang Yee and Scholz, Christin and Baek, Elisa C and Falk, Emily B.}, year={2022}, month=June }
+
+ @article{Baek_2022, title={In-degree centrality in a social network is linked to coordinated neural activity}, volume={13}, ISSN={2041-1723}, url={http://dx.doi.org/10.1038/s41467-022-28432-3}, DOI={10.1038/s41467-022-28432-3}, number={1}, journal={Nature Communications}, publisher={Springer Science and Business Media LLC}, author={Baek, Elisa C. and Hyon, Ryan and López, Karina and Finn, Emily S. and Porter, Mason A. and Parkinson, Carolyn}, year={2022}, month=Mar }
+
+ @article{Chan_2021, title={Being the Gatekeeper: How Thinking about Sharing Affects Neural Encoding of Information}, volume={31}, ISSN={1460-2199}, url={http://dx.doi.org/10.1093/cercor/bhab060}, DOI={10.1093/cercor/bhab060}, number={8}, journal={Cerebral Cortex}, publisher={Oxford University Press (OUP)}, author={Chan, Hang-Yee and Scholz, Christin and Baek, Elisa C and O’Donnell, Matthew B and Falk, Emily B}, year={2021}, month=Apr, pages={3939–3949} }
+
+ @article{Baek_2021, title={Lonely individuals process the world in idiosyncratic ways}, url={http://dx.doi.org/10.31234/osf.io/yt872}, DOI={10.31234/osf.io/yt872}, publisher={Center for Open Science}, author={Baek, Elisa C and Hyon, Ryan and López, Karina and Du, Meng and Porter, Mason A. and Parkinson, Carolyn}, year={2021}, month=July }
+
+ @article{Baek_2021, title={Popular individuals process the world in particularly normative ways}, url={http://dx.doi.org/10.31234/osf.io/6fj2p}, DOI={10.31234/osf.io/6fj2p}, publisher={Center for Open Science}, author={Baek, Elisa C and Hyon, Ryan and López, Karina and Finn, Emily S. and Porter, Mason A. and Parkinson, Carolyn}, year={2021}, month=June }
+
+ @article{Baek_2020, title={How do our brains support our real-life friendships?}, url={http://dx.doi.org/10.31235/osf.io/vy2jr}, DOI={10.31235/osf.io/vy2jr}, publisher={Center for Open Science}, author={Baek, Elisa C and Hyon, Ryan and Porter, Mason A. and Parkinson, Carolyn}, year={2020}, month=Dec }
+
+ @article{Baek_2019, title={Social Network Analysis for Social Neuroscientists}, url={http://dx.doi.org/10.31234/osf.io/kgc2h}, DOI={10.31234/osf.io/kgc2h}, publisher={Center for Open Science}, author={Baek, Elisa C and Porter, Mason A. and Parkinson, Carolyn}, year={2019}, month=Sept }
+
+ @article{Baek_2019, title={Considering Others’ Mental States Causally Increases Feelings of Social Bonding and Information Sharing}, url={http://dx.doi.org/10.31234/osf.io/nw43x}, DOI={10.31234/osf.io/nw43x}, publisher={Center for Open Science}, author={Baek, Elisa C and Tamir, Diana and Falk, Emily B.}, year={2019}, month=Sept }
+ 
