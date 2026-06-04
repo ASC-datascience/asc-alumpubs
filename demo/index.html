@@ -274,15 +274,17 @@ function renderPublication(pub) {
   const li = document.createElement('li');
   const parts = [];
 
-  if (hasValue(pub.title)) parts.push(cleanValue(pub.title));
   if (hasValue(pub.author)) parts.push(cleanValue(pub.author));
-  if (hasValue(pub.journal)) parts.push(cleanValue(pub.journal));
-  if (hasValue(pub.booktitle)) parts.push(cleanValue(pub.booktitle));
-  if (hasValue(pub.year)) parts.push(cleanValue(pub.year));
-  if (hasValue(pub.ENTRYTYPE)) parts.push(cleanValue(pub.ENTRYTYPE));
-  if (hasValue(pub.doi)) parts.push('doi: ' + cleanValue(pub.doi));
+    if (hasValue(pub.year)) parts.push("("+cleanValue(pub.year)+")");
+  if (hasValue(pub.title)) parts.push(cleanValue(pub.title));
 
-  li.textContent = parts.join(' | ') || '(Publication record has no display fields)';
+  if (hasValue(pub.journal)) parts.push("<i>" + cleanValue(pub.journal) + "</i>");
+  if (hasValue(pub.booktitle)) parts.push(cleanValue(pub.booktitle));
+  
+  // if (hasValue(pub.ENTRYTYPE)) parts.push(cleanValue(pub.ENTRYTYPE));
+    if (hasValue(pub.doi)) parts.push('<a target="_blank" href="https://doi.org/' + cleanValue(pub.doi) + "\">" + cleanValue(pub.doi) + "</a>");
+
+    li.innerHTML = parts.join(', ') || '(Publication record has no display fields)';
   return li;
 }
 
